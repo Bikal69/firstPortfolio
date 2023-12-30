@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
 {/* sidebar */}
-<Sidebar/>
+<Sidebar/>.
 <div className="wrapper">
     <motion.span initial={{
       opacity:0,scale:0.5
@@ -15,10 +15,10 @@ const Navbar = () => {
     }}
     transition={{duration:0.5}}>Rhino Dev</motion.span>
     <div className="social">
-        <a href="#"><img src="/facebook.png" alt="facebookLogo" /></a>
-        <a href="#"><img src="/instagram.png" alt="instaLogo" /></a>
-        <a href="#"><img src="/youtube.png" alt="youtubeLogo" /></a>
-        <a href="#"><img src="/dribbble.png" alt="dribbleLogo" /></a>
+        <a href="#"><img src="./facebook.png" alt="facebookLogo" /></a>
+        <a href="#"><img src="./instagram.png" alt="instaLogo" /></a>
+        <a href="#"><img src="./youtube.png" alt="youtubeLogo" /></a>
+        <a href="#"><img src="./dribbble.png" alt="dribbleLogo" /></a>
     </div>
 </div>
     </div>
